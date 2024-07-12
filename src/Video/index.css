@@ -1,0 +1,87 @@
+.navbar{
+   
+    gap: 80px;
+    color: white;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    margin-left: 40%;
+    
+   
+    
+    
+ }
+ .nav{
+     background-color: #092d42;
+ 
+ }
+ .amazon{
+     text-align: center;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 38px;
+ }
+ .amazon-image{
+     text-align: center;
+ }
+ .video-kur{
+     width: 600px;
+     height: 400px;
+     margin-left: 30%;
+ }
+ .video-Aline{
+     width: 600px;
+     height: 400px;
+     margin-left: 20%;
+ 
+ 
+ }
+ .video-section{
+     display: flex;
+     gap: 620px;
+     margin-left:5% ;
+     
+ }
+ .video-wato{
+     width: 600px;
+     height: 300px;
+     margin-left: 1%;
+ 
+ }
+ .video-linet{
+    width: 600px;
+    height: 300px;
+    margin-left: 10%;
+
+ }
+ .video-daisy{
+    width: 600px;
+    height: 300px;
+    margin-left: 10.3%;
+
+ }
+ .video-section2{
+    display: flex;
+    gap: 620px;
+    margin-left: 10%;
+ }
+  .main-div{
+    overflow-x: hidden;
+  } 
+  @media screen and (min-width:0px) and (max-width:300px){
+    .video-section{
+        flex-direction: column;
+
+    }
+    .video-section2{
+        flex-direction: column;
+    }
+  }
+  @media screen and (min-width:301px) and (max-width:480px){
+    
+  } 
+ 
+ 
+ 
+ 
+ 
+ 

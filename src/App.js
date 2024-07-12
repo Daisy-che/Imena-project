@@ -1,6 +1,7 @@
 import './App.css';
 import Home from './Home';
 import Video from './Video';
+import Project from './Project';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
 
 <Home/>
 <Video/>
+<Project/>
     </div>
 
   );

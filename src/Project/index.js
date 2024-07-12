@@ -5,7 +5,7 @@ import './index.css';
 const   Project = () =>{
     return(
         <div className='Blog'>
-            <div className='narbar'>
+            {/* <div className='narbar'>
                 <img src ='./images/logo2.png'alt='l'></img>
                 <p>Home</p>
                 <p>Videos</p>
@@ -14,7 +14,7 @@ const   Project = () =>{
                 <p>Portfolio</p>
                 
                 
-            </div>
+            </div> */}
             <div className='book'>
                 <p>Welcome to Born a crime a very intersting and interactive book.</p>
             </div>

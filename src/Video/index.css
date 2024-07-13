@@ -26,7 +26,7 @@
  .video-kur{
      width: 600px;
      height: 400px;
-     margin-left: 30%;
+    
  }
  .video-Aline{
      width: 600px;
@@ -37,7 +37,7 @@
  }
  .video-section{
      display: flex;
-     gap: 620px;
+     gap: 200px;
      margin-left:5% ;
      
  }
@@ -50,19 +50,21 @@
  .video-linet{
     width: 600px;
     height: 300px;
-    margin-left: 10%;
+    margin-right: 10%;
+    
 
  }
  .video-daisy{
     width: 600px;
     height: 300px;
-    margin-left: 10.3%;
+    
 
  }
  .video-section2{
     display: flex;
-    gap: 620px;
+    gap: 85px;
     margin-left: 10%;
+  
  }
   .main-div{
     overflow-x: hidden;
@@ -77,8 +79,74 @@
     }
   }
   @media screen and (min-width:301px) and (max-width:480px){
+    .video-section{
+        flex-direction: column;
+
+    }
+    .video-section2{
+        flex-direction: column;
+    }
     
   } 
+  @media screen and (min-width:481px) and (max-width:680px){
+    .video-section{
+        flex-direction: column;
+
+    }
+    .video-section2{
+        flex-direction: column;
+    }
+    
+  }
+  @media screen and (min-width:681px) and (max-width:800px){
+    .video-section{
+        flex-direction: column;
+
+    }
+    .video-section2{
+        flex-direction: column;
+    }
+    
+  }
+
+  @media screen and (min-width: 801px) and (max-width:880px){
+    .video-section{
+        flex-direction: column;
+
+    }
+    .video-section2{
+        flex-direction: column;
+    } 
+  }
+  @media screen and (min-width:881px) and (max-width:1020px){
+    .video-section{
+        flex-direction: column;
+
+    }
+    .video-section2{
+        flex-direction: column;
+    } 
+  } @media screen and (min-width:1021px) and (max-width:1250px){
+
+    .video-section{
+        display :flex ;
+
+    }
+    .video-section2{
+        display: flex;
+    } 
+  }
+  @media screen and (min-width:1251px) and (max-width:1500px){
+    .video-section{
+        display :flex ;
+
+    }
+    .video-section2{
+        display: flex;
+    } 
+  }
+  
+    
  
  
  

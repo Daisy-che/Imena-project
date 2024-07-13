@@ -3,17 +3,7 @@ import './index.css'
 const Video =  ()=>{
     return(
         <div className='main-div'>
-        <div className='nav'>
-            <div className='navbar'>
-                <p>Home</p>
-                <p>Videos</p>
-                <p>Blogs</p>
-                <p>Podcast</p>
-                <p>Portfolio</p>
-
-            
-        </div>
-        </div>
+        
         <div className='amazon'>
             <p>Learn more about how Amazon Works</p>
         </div>
@@ -27,8 +17,8 @@ const Video =  ()=>{
         <div><iframe src="https://www.loom.com/embed/df35a47c7beb4b8884697ffc4412f3c0?sid=6e68dda4-cd02-4429-be9a-30a28b67b3bc" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen className='video-wato'></iframe></div>
 
         <div><iframe src="https://www.loom.com/embed/891c0693fd4f4f8e94c3ea1e401cc8bb?sid=c3a2807b-76ce-4549-97b2-b2a12e37d4a5" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen className='video-linet'></iframe></div>
-        </div>
-        <div>
+        
+       
         <div><iframe src="https://www.loom.com/embed/abb01c10963244498519680dbe8f9a4c?sid=ec97ea9e-8ff5-4c90-8d72-2c2ef7dd300e" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen  className='video-daisy'></iframe></div>
         </div>
         

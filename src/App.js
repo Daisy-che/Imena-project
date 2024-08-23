@@ -2,7 +2,7 @@ import './App.css';
 import Home from './Home';
 import Video from './Video';
 import Project from './Project';
-import Podcast from './Podcast';
+// import Podcast from './Podcast';
 import Content from './content';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import LandingPage from "./Landingpage/landingpage";
@@ -21,8 +21,8 @@ function App() {
 <Home/>
 <Video/>
 <Project/>
-<Podcast/>
-<Content/>
+
+{/* <Content/> */}
 <Router>
       <Routes>
         <Route path="/" element={<LandingPage />} />

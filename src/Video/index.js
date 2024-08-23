@@ -2,18 +2,7 @@
 import './index.css'
 const Video =  ()=>{
     return(
-        <div className='main-div'>
-        <div className='nav'>
-            <div className='navbar'>
-                <p>Home</p>
-                <p>Videos</p>
-                <p>Blogs</p>
-                <p>Podcast</p>
-                <p>Portfolio</p>
-
-            
-        </div>
-        </div>
+       <div>
         <div className='amazon'>
             <p>Learn more about how Amazon Works</p>
         </div>

@@ -6,10 +6,7 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 24px;
     margin-left: 40%;
-    
    
-    
-    
  }
  .nav{
      background-color: #092d42;
@@ -24,45 +21,49 @@
      text-align: center;
  }
  .video-kur{
-     width: 600px;
-     height: 400px;
+     width: 500px;
+     height: 250px;
      margin-left: 30%;
  }
  .video-Aline{
-     width: 600px;
-     height: 400px;
+     width: 500px;
+     height: 250px;
      margin-left: 20%;
  
  
  }
  .video-section{
      display: flex;
-     gap: 620px;
-     margin-left:5% ;
+     gap: px;
+     
      
  }
  .video-wato{
-     width: 600px;
-     height: 300px;
+     width: 500px;
+     height: 250px;
      margin-left: 1%;
  
  }
  .video-linet{
-    width: 600px;
-    height: 300px;
+    width: 500px;
+    height: 250px;
     margin-left: 10%;
 
  }
  .video-daisy{
-    width: 600px;
-    height: 300px;
-    margin-left: 10.3%;
+    width: 500px;
+    height: 250px;
+    margin-left: -42.3%;
+    margin-top: 2%;
 
  }
  .video-section2{
     display: flex;
-    gap: 620px;
-    margin-left: 10%;
+    gap: px;
+    margin-left: 8%;
+    margin-top: 2%;
+   
+    
  }
   .main-div{
     overflow-x: hidden;
